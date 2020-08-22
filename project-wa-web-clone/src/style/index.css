@@ -1,0 +1,72 @@
+body {
+  overflow:hidden;
+}
+
+.top-container {
+  display: flex;
+  margin:0; 
+  padding:0; 
+  height:100vh; 
+  overflow:hidden;
+}
+.side-menu {
+  width: 30%;
+}
+.main {
+  width: 70%;
+  background-color: red;
+}
+
+
+.side-menu-header {
+  height: 110px;
+  background-color: brown;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+.side-menu-contacts {
+  top: 150px;
+  width: 100%;
+  background-color: aqua;
+  overflow: auto;
+  max-height: 100vh;
+}
+
+.main-header {
+  height: 50px;
+  position: absolute;
+  background-color: red;
+  width: 100%;
+}
+.main-content {
+  width: 100%;
+  top: 70px;
+  bottom: 60px;
+  position: absolute;
+  /* height: 100%; */
+  background-color: yellow;
+}
+.main-bottom {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  bottom: 0;
+  background-color: green;
+}
+
+.loading-indicator {
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 9;
+}
+.center {
+  text-align: center;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
